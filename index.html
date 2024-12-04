@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/2e3a143ac8.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Hidden Hindu</title>
+  </head>
+  <body class="bg-[#111] text-white overflow-x-clip">
+    <!-- Navbar-->
+    <nav id="nav" class="bg-[#222] px-3 py-4 flex justify-between items-center">
+      <a href="#" class="flex gap-2 items-center"
+        ><img
+          src="./logo.svg"
+          alt="Logo"
+          class="object-cover max-w-12 max-h-12"
+        />
+        <h1 class="text-orange-600 font-bold text-2xl">TheHiddenHindu</h1>
+      </a>
+      <div
+        id="nav-items"
+        class="hidden md:flex gap-6 lg:gap-12 font-medium text-lg m-3"
+      >
+        <a href="#" class="font-medium hover:text-orange-400">Blogs</a>
+        <a href="#" class="font-medium hover:text-orange-400">Blogs</a>
+        <a href="#" class="font-medium hover:text-orange-400">Blogs</a>
+        <a href="#" class="font-medium hover:text-orange-400">Blogs</a>
+      </div>
+      <div class="lg:px-4 px-2">
+        <div
+          class="hidden md:flex rounded-md border outline-none selection:border-orange-400 hover:border-orange-400"
+        >
+          <span class="p-2 flex">
+            <i class="fa-solid fa-magnifying-glass px-2 text-gray-400"></i>
+          </span>
+          <input
+            id="searchBar"
+            type="text"
+            placeholder="Search"
+            class="bg-[#222] rounded-lg outline-none align-middle"
+          />
+        </div>
+      </div>
+      <button class="p-2 md:hidden nav-btn">
+        <i class="fa-solid fa-bars text-gray-400"></i>
+      </button>
+      <div id="nav-Dialog" class="hidden fixed z-10 bg-[#222] inset-0 p-3">
+        <div class="flex justify-between">
+          <a href="#" class="flex gap-2 items-center"
+            ><img
+              src="./logo.svg"
+              alt="Logo"
+              class="object-cover max-w-12 max-h-12"
+            />
+            <h1 class="text-orange-600 font-bold text-2xl">TheHiddenHindu</h1>
+          </a>
+          <button class="p-2 md:hidden nav-btn">
+            <i class="fa-solid fa-xmark text-gray-400"></i>
+          </button>
+        </div>
+        <div
+          class="w-full flex rounded-md border outline-none selection:border-orange-400 hover:border-orange-400 mt-8"
+        >
+          <span class="p-2">
+            <i class="fa-solid fa-magnifying-glass px-2 text-gray-400"></i>
+          </span>
+          <input
+            id="searchBar"
+            type="text"
+            placeholder="Search"
+            class="bg-[#222] rounded-lg outline-none align-middle w-full"
+          />
+        </div>
+        <div class="h-[1px] bg-gray-500 m-7"></div>
+        <div class="mt-6">
+          <a
+            href="#"
+            class="font-medium m-3 p-3 hover:bg-gray-600 hover:text-orange-600 block rounded-lg"
+            >Blogs</a
+          >
+          <a
+            href="#"
+            class="font-medium m-3 p-3 hover:bg-gray-600 hover:text-orange-600 block rounded-lg"
+            >Blogs</a
+          >
+          <a
+            href="#"
+            class="font-medium m-3 p-3 hover:bg-gray-600 hover:text-orange-600 block rounded-lg"
+            >Blogs</a
+          >
+          <a
+            href="#"
+            class="font-medium m-3 p-3 hover:bg-gray-600 hover:text-orange-600 block rounded-lg"
+            >Blogs</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End-->
+    <script src="./script.js" defer></script>
+  </body>
+</html>
